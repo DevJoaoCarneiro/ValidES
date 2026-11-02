@@ -49,6 +49,11 @@ public class CalculadoraDescontoServiceTest {
         // =====================================================
 
         assertEquals(
+                10.00,
+                calculadora.getValorDesconto(),
+                0.01);
+
+        assertEquals(
                 90.00,
                 calculadora.getValorFinal(),
                 0.01);
